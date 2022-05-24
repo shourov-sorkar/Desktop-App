@@ -69,6 +69,9 @@
     <Compile Include="UserControlHome.xaml.cs">
       <DependentUpon>UserControlHome.xaml</DependentUpon>
     </Compile>
+    <Compile Include="UserControlProducts.xaml.cs">
+      <DependentUpon>UserControlProducts.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -86,6 +89,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="UserControlHome.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControlProducts.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -23,3 +23,5 @@ C:\Users\rshou\source\repos\WPFPOC\WPFPOC\obj\Debug\UserControlHome.baml
 C:\Users\rshou\source\repos\WPFPOC\WPFPOC\obj\Debug\UserControlAddProduct.g.cs
 C:\Users\rshou\source\repos\WPFPOC\WPFPOC\obj\Debug\UserControlAddProduct.baml
 C:\Users\rshou\source\repos\WPFPOC\WPFPOC\obj\Debug\WPFPOC.csproj.AssemblyReference.cache
+C:\Users\rshou\source\repos\WPFPOC\WPFPOC\obj\Debug\UserControlProducts.g.cs
+C:\Users\rshou\source\repos\WPFPOC\WPFPOC\obj\Debug\UserControlProducts.baml

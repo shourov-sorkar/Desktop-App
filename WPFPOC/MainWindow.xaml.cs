@@ -46,7 +46,7 @@ namespace WPFPOC
                     break;
                 case 1:
                     GridPrincipal.Children.Clear();
-                    GridPrincipal.Children.Add(new UserControlHome());
+                    GridPrincipal.Children.Add(new UserControlProducts());
                     break;
                 case 2:
                     GridPrincipal.Children.Clear();
