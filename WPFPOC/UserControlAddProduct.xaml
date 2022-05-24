@@ -1,0 +1,59 @@
+﻿<UserControl x:Class="WPFPOC.UserControlAddProduct"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WPFPOC"
+             mc:Ignorable="d" 
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             Height="auto" Width="500">
+            <Grid>
+               <materialDesign:TransitioningContent x:Name="TrainsitionigContentSlide" OpeningEffect="{materialDesign:TransitionEffect SlideInFromLeft, Duration=0:0:0.8}">
+                <StackPanel>
+                <TextBox
+                     x:Name="NameTextBox"
+                     materialDesign:HintAssist.Hint="Server"
+                     >
+                    <TextBox.Text >
+                            <Binding Path="Name" UpdateSourceTrigger="PropertyChanged">
+                                <Binding.ValidationRules>
+                                </Binding.ValidationRules>
+                            </Binding>
+                        </TextBox.Text>
+                    </TextBox>
+                    <TextBox Margin="0,70,0,0"
+                    x:Name="DB"
+                      materialDesign:HintAssist.Hint="DB USER"
+                       >
+
+                        <TextBox.Text>
+                            <Binding Path="Name" UpdateSourceTrigger="PropertyChanged">
+                                <Binding.ValidationRules>
+                                </Binding.ValidationRules>
+                            </Binding>
+                        </TextBox.Text>
+                    </TextBox>
+                    <TextBox Margin="0,30,0,0"
+                    x:Name="DBP"
+                      materialDesign:HintAssist.Hint="DB PASSWORD"
+                       >
+                        <TextBox.Text>
+                            <Binding Path="Name" UpdateSourceTrigger="PropertyChanged">
+                                <Binding.ValidationRules>
+                                </Binding.ValidationRules>
+                            </Binding>
+                        </TextBox.Text>
+                    </TextBox>
+                    <Button Margin="0,30,0,0"
+                                    Style="{StaticResource MaterialDesignRaisedSecondaryButton}"
+                                    Width="200"
+                                    ToolTip="By Clicking Here You Can Create Schema"
+                                    Content="Create Schema"
+                                    IsEnabled="{Binding DataContext.ControlsEnabled, RelativeSource={RelativeSource FindAncestor, AncestorType=Window}}"/>
+                </StackPanel>
+                   
+            
+                </materialDesign:TransitioningContent>
+            </Grid>
+   
+</UserControl>
