@@ -69,8 +69,14 @@
     <Compile Include="UserControlHome.xaml.cs">
       <DependentUpon>UserControlHome.xaml</DependentUpon>
     </Compile>
+    <Compile Include="UserControlNotification.xaml.cs">
+      <DependentUpon>UserControlNotification.xaml</DependentUpon>
+    </Compile>
     <Compile Include="UserControlProducts.xaml.cs">
       <DependentUpon>UserControlProducts.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlSettings.xaml.cs">
+      <DependentUpon>UserControlSettings.xaml</DependentUpon>
     </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -92,7 +98,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="UserControlNotification.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="UserControlProducts.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControlSettings.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

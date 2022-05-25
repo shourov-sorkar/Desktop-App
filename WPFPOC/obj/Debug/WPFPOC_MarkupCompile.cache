@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\rshou\source\repos\WPFPOC\WPFPOC\App.xaml
-4526263705
+6-1014490665
 
-8189717987
+101271707233
 15-934586960
-MainWindow.xaml;UserControlAddProduct.xaml;UserControlHome.xaml;UserControlProducts.xaml;
+MainWindow.xaml;UserControlAddProduct.xaml;UserControlHome.xaml;UserControlNotification.xaml;UserControlProducts.xaml;UserControlSettings.xaml;
 
 False
 

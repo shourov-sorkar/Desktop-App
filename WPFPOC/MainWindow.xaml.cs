@@ -30,6 +30,16 @@ namespace WPFPOC
         {
             Application.Current.Shutdown();
         }
+        private void Settings_Click(object sender, RoutedEventArgs e)
+        {
+            GridPrincipal.Children.Clear();
+            GridPrincipal.Children.Add(new UserControlSettings());
+        }
+        private void Notifications_Click(object sender, RoutedEventArgs e)
+        {
+            GridPrincipal.Children.Clear();
+            GridPrincipal.Children.Add(new UserControlNotification());
+        }
         private void Grid_MouseDown(object sender, MouseButtonEventArgs e)
         {
             DragMove();
